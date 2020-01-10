@@ -2,4 +2,4 @@
 
 BASE:
   test:
-    url:
+    url: "http://betaapi.create-chain.net:8085"
