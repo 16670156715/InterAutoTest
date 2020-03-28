@@ -133,7 +133,7 @@ class TestExcel:
 
         # 断言验证
         assert_util = AssertUtil()
-        assert_util.assert_code(int(res["code"]), int(code))    # 验证状态码
+        assert_util.assert_code(int(res["code"]), int(code))        # 验证状态码
         assert_util.assert_in_body(str(res["body"]), str(expect_result))    # 验证返回结果内容
         if len(db_verity) > 0:  # 数据库结果断言
             Base.assert_db("db_1", res["body"], db_verity)
