@@ -1,0 +1,18 @@
+
+
+BASE:
+  # log等级
+  log_level: "debug"
+  # 扩展名
+  log_extension: ".log"
+  test:
+    url: "https://api.create-chain.net"
+#    url: "http://betaapi.create-chain.net:8085"
+    case_file: "testdata.csv"
+    case_sheet: "api"
+
+email:
+  smtpserver: "smtp.163.com"
+  username: "16670156715@163.com"
+  password: "JIANG18244777617"
+  receiver: "16670156715@163.com"

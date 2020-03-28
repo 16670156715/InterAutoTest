@@ -1,5 +1,0 @@
-
-
-BASE:
-  test:
-    url: "http://betaapi.create-chain.net:8085"

@@ -1,0 +1,7 @@
+db_1:
+  db_host: "rm-bp1fgfik7419ay382.mysql.rds.aliyuncs.com"
+  db_user: "ccmall"
+  db_password: "NtSH%(gc43p(9Smo"
+  db_name: "ccm_xds"
+  db_charset: "utf8"
+  db_port: "3306"

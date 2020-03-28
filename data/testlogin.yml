@@ -1,0 +1,16 @@
+login001:
+  "case_name": "登录成功"
+  "url": "/ccmapi/login"
+  "data":
+    username: "15573235704"
+    password: "20216565"
+    deviceType: "phone"
+    type: "1"
+login002:
+  "case_name": "验证码错误"
+  "url": "/ccmapi/login"
+  "data":
+    username: "15573235704"
+    password: "20216564"
+    deviceType: "phone"
+    type: "1"
