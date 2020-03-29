@@ -13,7 +13,7 @@ import allure
 
 
 # 1、初始化信息
-case_file = os.path.join("../data", ConfigYml().get_excel_file())    # 初始化测试用例文件
+case_file = os.path.join(Conf.get_data_path(), ConfigYml().get_excel_file())    # 初始化测试用例文件
 sheet_name = ConfigYml().get_excel_sheet()  # 初始化测试用例sheet名称
 # 获取运行测试用例列表
 data_init = Data(case_file, sheet_name)
