@@ -30,7 +30,7 @@ packaging==20.1
 pathlib2==2.3.5
 pbr==5.4.2
 pluggy==0.13.1
-py==1.7.0
+py==1.10.0
 pycparser==2.19
 PyJWT==1.7.1
 PyMySQL==0.7.11
